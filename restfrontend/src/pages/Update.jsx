@@ -28,13 +28,13 @@ const Update = () => {
         type="text"
         placeholder="firstName"
         id="firstName"
-        value={params.firstName}
+        defaultValue={params.firstName}
       />
       <input
         type="text"
         placeholder="lastName"
         id="lastName"
-        value={params.lastName}
+        defaultValue={params.lastName}
       />
       <button type="submit" onClick={handleChange}>
         Update
